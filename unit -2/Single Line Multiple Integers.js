@@ -1,34 +1,41 @@
-// Description
+Description
 
-// Single Line Single Integer
-
-
-// Input
-// The first and the only line contains the single integer, which is the input
+Single Line Multiple Integers
 
 
-// Output
-
-// Print the input taken as the output by adding 1 to the input
-
-
-// Sample Input 1 
-
-// 4
-// Sample Output 1
-
-// 5
-
-// sol:
+Input
+The first and the only line of the input contains the 4 integers, given as input
 
 
-function math(n)
+Output
+Print each integer given as input, on a new line as output by adding 1 to it
+
+
+Sample Input 1 
+
+1 2 3 4
+Sample Output 1
+
+2
+3
+4
+5
+
+
+sol:
+
+function vartical(arr)
 {
-    console.log(n+1);
+    for(var i=0;i<arr.length;i++)
+    {
+        console.log(Number(arr[i])+1);
+    }
 }
 function runProgram(input) {
-	input=Number(input);
-	math(input)
+    input=input.split(" ");
+    input.map(Number);
+    vartical(input)
+	
 }
 
 
