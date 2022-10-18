@@ -1,24 +1,24 @@
-Description
+// Description
 
-Multiple Strings form a sentence together
-
-
-Input
-The first and the only line of the input contains the string, given as input
+// Multiple Strings form a sentence together
 
 
-Output
-Print the input string as output
-
-Sample Input 1 
-
-my name is ankush
-Sample Output 1
-
-my name is ankush
+// Input
+// The first and the only line of the input contains the string, given as input
 
 
-sol:
+// Output
+// Print the input string as output
+
+// Sample Input 1 
+
+// my name is ankush
+// Sample Output 1
+
+// my name is ankush
+
+
+// sol:
 
 function arrayofstring(arr)
 { 

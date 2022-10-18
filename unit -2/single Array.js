@@ -1,28 +1,28 @@
 
-Description
+// Description
 
-Single Array
-
-
-Input
-The first line containsNthe size of the array
-
-The next line containsNspace separated integers, denoting the elements of the array
+// Single Array
 
 
-Output
-Print the elements of the array on a single line, by adding 1 to each element
+// Input
+// The first line containsNthe size of the array
+
+// The next line containsNspace separated integers, denoting the elements of the array
 
 
-Sample Input 1 
+// Output
+// Print the elements of the array on a single line, by adding 1 to each element
 
-5
-1 2 3 4 5
-Sample Output 1
 
-2 3 4 5 6
+// Sample Input 1 
 
-sol:
+// 5
+// 1 2 3 4 5
+// Sample Output 1
+
+// 2 3 4 5 6
+
+// sol:
 
 function array(size,arr)
 {

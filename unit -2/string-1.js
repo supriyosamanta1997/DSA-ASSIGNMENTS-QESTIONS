@@ -1,17 +1,17 @@
-Description
+// Description
 
-Single String, where the size of the string is given
-
-
-Input
-The first line of the input containsN, the size of the string
-
-The next line contains the string itself
+// Single String, where the size of the string is given
 
 
-Output
+// Input
+// The first line of the input containsN, the size of the string
 
-sol:
+// The next line contains the string itself
+
+
+// Output
+
+// sol:
 
 
 function string(size,str)
