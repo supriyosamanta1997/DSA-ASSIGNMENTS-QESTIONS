@@ -1,40 +1,40 @@
-Description
+// Description
 
-You are given a number stored in a variable, with the nameage
+// You are given a number stored in a variable, with the nameage
 
-Check whether the age is greater than and equal to 60 or not.
+// Check whether the age is greater than and equal to 60 or not.
 
-If true, Then print "Senior Citizen"
+// If true, Then print "Senior Citizen"
 
-otherwise "Not Senior Citizen".
-
-
-Input
-The first and the only line of the input contains the number stored in the variablenumber
-
-Constraints
-
-1 <= N <= 100
+// otherwise "Not Senior Citizen".
 
 
-Output
-If the value stored inage, is greater than and equal to 60 Then printSenior Citizen, else printNot Senior Citizen
+// Input
+// The first and the only line of the input contains the number stored in the variablenumber
 
-Sample Input 1 
+// Constraints
 
-50
-Sample Output 1
+// 1 <= N <= 100
 
-Not Senior Citizen
-Hint
 
-the sample input, age = 50
+// Output
+// If the value stored inage, is greater than and equal to 60 Then printSenior Citizen, else printNot Senior Citizen
 
-Since 50 is less than 60.
+// Sample Input 1 
 
-Thus, the output will be"Not Senior Citizen"
+// 50
+// Sample Output 1
 
-sol:
+// Not Senior Citizen
+// Hint
+
+// the sample input, age = 50
+
+// Since 50 is less than 60.
+
+// Thus, the output will be"Not Senior Citizen"
+
+// sol:
 
 function isSeniorCitizen(age) {
     // Write code here
