@@ -1,41 +1,30 @@
-// Description
+Description
 
-// Single Line Multiple Integers
-
-
-// Input
-// The first and the only line of the input contains the 4 integers, given as input
+String, such that the size of the string is not given
 
 
-// Output
-// Print each integer given as input, on a new line as output by adding 1 to it
+Input
+The first and the only line of the input contains the string
 
+Output
+Print the string given as input
 
-// Sample Input 1 
+Sample Input 1 
 
-// 1 2 3 4
-// Sample Output 1
+aman
+Sample Output 1
 
-// 2
-// 3
-// 4
-// 5
+aman
 
+sol:
 
-// sol:
-
-function vartical(arr)
+//Enter code here
+function string(input)
 {
-    for(var i=0;i<arr.length;i++)
-    {
-        console.log(Number(arr[i])+1);
-    }
+    console.log(input);
 }
 function runProgram(input) {
-    input=input.split(" ");
-    input.map(Number);
-    vartical(input)
-	
+	string(input)
 }
 
 

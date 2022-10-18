@@ -1,40 +1,38 @@
-// Description
+Description
 
-// Single Line Multiple Integers
-
-
-// Input
-// The first and the only line of the input contains the 4 integers, given as input
+Multiple Strings form a sentence together
 
 
-// Output
-// Print each integer given as input, on a new line as output by adding 1 to it
+Input
+The first and the only line of the input contains the string, given as input
 
 
-// Sample Input 1 
+Output
+Print the input string as output
 
-// 1 2 3 4
-// Sample Output 1
+Sample Input 1 
 
-// 2
-// 3
-// 4
-// 5
+my name is ankush
+Sample Output 1
+
+my name is ankush
 
 
-// sol:
+sol:
 
-function vartical(arr)
-{
+function arrayofstring(arr)
+{ 
+    var bag="";
     for(var i=0;i<arr.length;i++)
     {
-        console.log(Number(arr[i])+1);
+        bag=bag+arr[i]+" ";
     }
+    console.log(bag);
 }
 function runProgram(input) {
-    input=input.split(" ");
-    input.map(Number);
-    vartical(input)
+    var arr=input.trim().split(" ");
+    // console.log(arr);
+    arrayofstring(arr);
 	
 }
 
